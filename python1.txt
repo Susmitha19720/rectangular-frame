@@ -1,0 +1,8 @@
+def hello_world(word);
+  size=max(len(word) for word in words)
+   print("*"*(size+4)
+   for i in words:
+   print("*",i," " *(int((size+4))-int(len(i))),"*")
+   print("*"*(size+4))
+  li=["hello","world","in","a","frame"]
+  hello_world(li)
